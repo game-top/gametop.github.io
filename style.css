@@ -43,19 +43,19 @@ section {
 }
 
 .z1 {
-  animation: animatia linear 1.5s infinite 1.5s;
+  animation: animatia linear 1.5s infinite 0.1s;
 }
 
 .A13 {
-    animation: animatia linear 1.5s infinite 3s;
+    animation: animatia linear 1.5s infinite 0.2s;
 }
 
 
 .opel {
-    animation: animatia linear 1.5s infinite 4.5s;
+    animation: animatia linear 1.5s infinite 0.3s;
 }
 .mers {
-    animation: animatia linear 1.5s infinite 6s;
+    animation: animatia linear 1.5s infinite 0.4s;
 }
 .wrapper-cubes {
   position: absolute;
