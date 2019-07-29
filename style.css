@@ -92,3 +92,39 @@ section {
     transform: translateY(0px);
   }
 }
+
+.game {
+  border: 12px solid black;
+  width: 120px;
+  line-height:22px;
+  height:333px;
+  margin: 10px;
+  
+margin-top:100px
+}
+.games {
+  display: flex;
+  justify-content: center;
+  
+}
+
+header {
+  width: 100%;
+
+  
+}
+
+ul {
+  display: flex;
+  justify-content: space-around;
+}
+li {
+  font-size: 41px;
+  background: linear-gradient(rgb(183, 11, 199), rgb(252, 194, 3));
+  padding: 4px;
+}
+
+li a {
+  /* background-color: rgba(255, 255, 255, 0.462); */
+  color: #000;
+}
