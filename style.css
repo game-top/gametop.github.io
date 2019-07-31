@@ -95,7 +95,7 @@ section {
 
 .game {
   border: 12px solid black;
-  width: 120px;
+  width: 321px;
   line-height:22px;
   height:333px;
   margin: 10px;
@@ -127,4 +127,9 @@ li {
 li a {
   /* background-color: rgba(255, 255, 255, 0.462); */
   color: #000;
+}
+
+.game img {
+  width: 321px; 
+  height: 311px ;
 }
