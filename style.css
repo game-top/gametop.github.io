@@ -94,13 +94,14 @@ section {
 }
 
 .game {
-  border: 12px solid black;
+  border: 12px solid rgb(5, 121, 49);
   width: 321px;
   line-height:22px;
   height:333px;
   margin: 10px;
   
-margin-top:100px
+margin-top:100px;
+color:rgb(206, 0, 0)
 }
 .games {
   display: flex;
@@ -128,8 +129,23 @@ li a {
   /* background-color: rgba(255, 255, 255, 0.462); */
   color: #000;
 }
-
+.game {
+  background-color: rgb(87, 255, 241);
+}
 .game img {
   width: 321px; 
   height: 311px ;
+}
+
+.call-of-duty img {
+  
+  filter: brightness(80%);
+}
+
+.game:hover {
+  transform: rotate(360deg) scale(1.3);
+  position: relative;
+  padding: 10px;
+  z-index: 5;
+  transition: 1.3s;
 }

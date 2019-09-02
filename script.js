@@ -1,32 +1,15 @@
-var a = 1;
-var b = 2;
-var k = 10 % 2;
-var c = k + k + k*5 + k + a*b;
-alert(c);
+var a = 'al;';
 
-for( var i = 0; i < 10; i++ ) {
-    c = c * 2 - 1;
-    console.log(c);
+var d = 'ss;';
+
+setTimeout(wow, 10000);
+// setInterval(wow, 500)
+
+function wow() {
+    var tochno = 'точно ';
+    for(var i = 1; i < 10; i++) {
+        tochno = tochno + tochno;
+        console.log('Ты ' + tochno + ' хочешь закрыть окно?');
+    }
+    
 }
-
-
-var bananus = document.getElementById('bananus');
-
-// setInterval(function() {
-//     bananus.style.transition = '2s';
-//     bananus.style.translateX = '100px';
-// }, 100);
-
-
-
-
-
-
-
-
-
-
-
-
-
-
