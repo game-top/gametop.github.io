@@ -43,7 +43,7 @@ section {
 }
 
 .z1 {
-  animation: animatia linear 1.5s infinite 0.1s;
+  animation: animatia linear 1.5s infinite 1.5s;
 }
 
 .A13 {
@@ -94,14 +94,16 @@ section {
 }
 
 .game {
-  border: 12px solid rgb(5, 121, 49);
+  /* border: 12px solid rgb(5, 121, 49); */
   width: 321px;
   line-height:22px;
   height:333px;
   margin: 10px;
   
-margin-top:100px;
-color:rgb(206, 0, 0)
+  margin-top:100px;
+  color:rgb(206, 0, 0);
+  box-shadow: 0 0 10px black;
+  padding: 10px;
 }
 .games {
   display: flex;
@@ -118,23 +120,33 @@ header {
 ul {
   display: flex;
   justify-content: space-around;
+  list-style: none;
 }
+
 li {
   font-size: 41px;
-  background: linear-gradient(rgb(183, 11, 199), rgb(252, 194, 3));
-  padding: 4px;
+  background: linear-gradient(rgb(255, 0, 76), rgb(252, 194, 3));
+  padding: 8px 39px;
+  border-radius: 60%;
 }
 
 li a {
   /* background-color: rgba(255, 255, 255, 0.462); */
   color: #000;
+  text-decoration: none;
 }
+
 .game {
-  background-color: rgb(87, 255, 241);
+  /* background-color: rgb(87, 255, 241); */
+  background-color: #fff;
+  border-radius: 200px;
+  overflow: hidden;
 }
+
 .game img {
   width: 321px; 
-  height: 311px ;
+  height: 311px;
+  border-radius: 100%;
 }
 
 .call-of-duty img {
